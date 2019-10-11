@@ -1,11 +1,14 @@
 {
   "env": {
-    "node": true,
-    "es6": true
+      "node": true
   },
-    "extends": ["prettier"],
-    "plugins": ["prettier"],
-    "rules": {
+  "parserOptions": {
+      "ecmaVersion": 2019,
+      "sourceType": "module"
+  },
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "rules": {
       "prettier/prettier": ["error"]
-    }
   }
+}
